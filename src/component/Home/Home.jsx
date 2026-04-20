@@ -9,6 +9,7 @@ import CaseStudySection from "./SocialMedia";
 import HowWeWork from "./HowWeWork";
 import PartnershipsSection from "./Partnershipssection";
 import SpiritualHero from "./Benner";
+import Footer from "../Layout/Footer";
 
 const pillAnim = `
   @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap');
@@ -500,7 +501,8 @@ export default function DigitalMarketingHero() {
     <HowWeWork/>
         <PartnershipsSection/>
         <SpiritualHero/>
-          <PartnershipsSection/>
+          <Footer/>
+
     </>
   );
 }
